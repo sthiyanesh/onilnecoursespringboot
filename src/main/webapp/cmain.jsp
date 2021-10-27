@@ -52,7 +52,7 @@
 			</table>
 		</div>
 		<div class="card-body">
-			<a href="http://localhost:8080/addcourse" class="btn btn-info" role="button">Add new Course</a>
+			<a href="/addcourse" class="btn btn-info" role="button">Add new Course</a>
 		</div>
 	</div>
 	</div>
