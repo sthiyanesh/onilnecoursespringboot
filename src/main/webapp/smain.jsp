@@ -24,8 +24,8 @@
 			<h5 class="font-weight-bold text-uppercase mt-3 mb-4">${heading}</h5>
 		</div>
 		<div class = "card-body">
-			<a href="http://localhost:8080/sfilter" class="btn btn-outline-warning" style="float:right" role="button">Apply Filter</a>
-			<a href="http://localhost:8080/students" class="btn btn-outline-warning" style="float:right" role="button">Reset Filter</a><br>
+			<a href="/sfilter" class="btn btn-outline-warning" style="float:right" role="button">Apply Filter</a>
+			<a href="/students" class="btn btn-outline-warning" style="float:right" role="button">Reset Filter</a><br>
 			<table class="table table-bordered">
 				<thead>
 					<tr>
@@ -43,7 +43,7 @@
 						<td>${courser.sname}</td>
 						<td>${courser.semail}</td>
 						<td>${courser.spw}</td>
-						<td><a href="http://localhost:8080/studentsedit?sid=${courser.sid}&a=a" class="btn btn-info" role="button">Edit</a></td>
+						<td><a href="/studentsedit?sid=${courser.sid}&a=a" class="btn btn-info" role="button">Edit</a></td>
 						</tr>
 					</c:forEach>
 				</tbody>

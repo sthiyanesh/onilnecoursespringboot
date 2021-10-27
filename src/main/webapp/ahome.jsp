@@ -20,11 +20,11 @@
 				<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Welcome Back, ${courser.aname}</h5>
 			</div>
 			<div class = "card-body">
-				<a href="http://localhost:8080/students" class="btn btn-default" role="button">Student Detail</a>
-				<a href="http://localhost:8080/courses" class="btn btn-default" role="button">Course Detail</a>
+				<a href="/students" class="btn btn-default" role="button">Student Detail</a>
+				<a href="/courses" class="btn btn-default" role="button">Course Detail</a>
 			</div>
 			<div class = "card-body">
-				<a href="http://localhost:8080/addadmin" class="btn btn-default" role="button">Add Admin</a>
+				<a href="/addadmin" class="btn btn-default" role="button">Add Admin</a>
 			</div>
 			</div>
 			</div>

@@ -19,11 +19,11 @@
 				<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Welcome to ST<br>Online Course Teaching Acdemy<br>Official Website</h5>
 			</div>
 			<div class = "card-body">
-				<a href="http://localhost:8080/slogin" class="btn btn-default" role="button">Student Login</a>
-				<a href="http://localhost:8080/sregister" class="btn btn-default" role="button">Student Register</a>
+				<a href="/slogin" class="btn btn-default" role="button">Student Login</a>
+				<a href="/sregister" class="btn btn-default" role="button">Student Register</a>
 			</div>
 			<div class = "card-body">
-				<a href="http://localhost:8080/adminlogin" class="btn btn-default" role="button">Admin Login</a>
+				<a href="/adminlogin" class="btn btn-default" role="button">Admin Login</a>
 			</div>
 			</div>
 			</div>

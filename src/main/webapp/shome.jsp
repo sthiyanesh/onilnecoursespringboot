@@ -22,7 +22,7 @@
         <div class = "card text-center w-50 my-auto shadow">
             <div class = "card-header bg-primary text-white">
                 <h2 style="text-align: center;">Welcome Back, ${name}</h2>
-                <a href="http://localhost:8080/studentsedit?sid=${sid}&a=s" class="btn btn-info" role="button">Edit Your Details</a>
+                <a href="/studentsedit?sid=${sid}&a=s" class="btn btn-info" role="button">Edit Your Details</a>
             </div>
             <div class = "card-body">
                 <table class="table table-bordered">
@@ -42,12 +42,12 @@
 						<td>${courser.crname}</td>
 						<td>${courser.crtutor}</td>
 						<td>${courser.duration}</td>
-						<td><a href="http://localhost:8080/" class="btn btn-info" role="button" disabled >Open Course</a></td>
+						<td><a href="/" class="btn btn-info" role="button" disabled >Open Course</a></td>
 						</tr>
 					</c:forEach>
                     </tbody>
                 </table>
-                <a href="http://localhost:8080/senroll?sid=${sid}" class="btn btn-outline-warning" style="float:right" role="button">Enroll</a>
+                <a href="/senroll?sid=${sid}" class="btn btn-outline-warning" style="float:right" role="button">Enroll</a>
             </div>
         </div>
         </div>

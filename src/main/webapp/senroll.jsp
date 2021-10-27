@@ -41,7 +41,7 @@
 						<td>${courser.crtutor}</td>
                         <td>${courser.fees}</td>
 						<td>${courser.duration}</td>
-						<td><a href="http://localhost:8080/senrolled?crid=${courser.crid}&sid=${sid}" class="btn btn-info" role="button">Enroll Course</a></td>
+						<td><a href="/senrolled?crid=${courser.crid}&sid=${sid}" class="btn btn-info" role="button">Enroll Course</a></td>
 						</tr>
 					</c:forEach>
                     </tbody>
